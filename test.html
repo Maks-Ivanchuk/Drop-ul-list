@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet">
+   <title>Drop Ul list</title>
+   <style>
+      #tree {
+         cursor: pointer;
+      }
+
+      #tree span:hover {
+         font-weight: 700;
+      }
+   </style>
+</head>
+<!-- спробувати перероьиби ссавці/риби-->
+
+<body>
+   <ul id="tree">
+      <li class="targetForBtnClose">Тварини
+         <button>#</button>
+         <ul class="visible1" hidden>
+            <li>Ссавці
+               <ul class="visible2" hidden>
+                  <li>Корови
+                     <ul class="visible3" hidden>
+                        <li>Роги
+                           <button>x</button>
+                        </li>
+                     </ul>
+                  </li>
+                  <li>Осли
+                     <ul class="visible3" hidden>
+                        <li>Хвіст
+                           <button>x</button>
+                        </li>
+                     </ul>
+                  </li>
+                  <li>Собаки
+                     <ul class="visible3" hidden>
+                        <li>Кістка
+                           <button>x</button>
+                        </li>
+                     </ul hidden>
+                  </li>
+                  <li>Тигри
+                     <ul class="visible3" hidden>
+                        <li>Тигролови
+                           <button>x</button>
+                        </li>
+                     </ul>
+                  </li>
+               </ul>
+            </li>
+            <li>Інші
+               <ul class="visible2" hidden>
+                  <li>Змії
+                     <ul class="visible3" hidden>
+                        <li>жінки-колеги
+                           <button>x</button>
+                        </li>
+                     </ul>
+                  </li>
+                  <li>Птахи
+                     <ul class="visible3" hidden>
+                        <li>Лелека
+                           <button>x</button>
+                        </li>
+                     </ul>
+                  </li>
+                  <li>Ящірки
+                     <ul class="visible3" hidden>
+                        <li>Безхвостикі
+                           <button>x</button>
+                        </li>
+                     </ul>
+                  </li>
+               </ul>
+            </li>
+         </ul>
+      </li>
+      <li class="targetForBtnClose">Риби
+         <button>#</button>
+         <ul class="visible1" hidden>
+            <li>Акваріумні
+               <ul class="visible2" hidden>
+                  <li>Гуппі
+                     <ul class="visible3" hidden>
+                        <li>Дурні
+                           <button>x</button>
+                        </li>
+                     </ul>
+                  </li>
+                  <li>Риба-янгол
+                     <ul class="visible3" hidden>
+                        <li>Слава Іссу
+                           <button>x</button>
+                        </li>
+                     </ul>
+                  </li>
+               </ul>
+            </li>
+            <li>Морські
+               <ul class="visible2" hidden>
+                  <li>Морська форель
+                     <ul class="visible3" hidden>
+                        <li>Річкова круче
+                           <button>x</button>
+                        </li>
+                     </ul>
+                  </li>
+               </ul>
+            </li>
+         </ul>
+      </li>
+   </ul>
+   <script src="tetsScript.js"></script>
+</body>
+
+</html>
